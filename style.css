@@ -184,6 +184,7 @@ main {
     flex-wrap: wrap;
     align-items: center;
   }
+
   .profile .profile-details h3 {
     font-size: 0.7rem;
   }
@@ -193,11 +194,23 @@ main {
   .review p {
     font-size: 0.7rem;
   }
+  .card {
+    width: 100%;
+  }
 }
 
 @media (max-width: 450px) {
   .rating-img {
     margin-right: 0;
     margin-bottom: 3px;
+  }
+  .card {
+    width: 100%;
+  }
+  .top {
+    background-image: url("./images/bg-pattern-top-mobile.svg");
+  }
+  .bottom {
+    background-image: url("./images/bg-pattern-bottom-mobile.svg");
   }
 }
